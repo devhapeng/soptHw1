@@ -14,7 +14,7 @@
         android:src="@drawable/soptlogocap"
         android:paddingStart="100dp"
         android:paddingEnd="100dp"
-        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintBottom_toTopOf="@+id/editText_email"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -24,7 +24,7 @@
          />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editText_email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
@@ -33,7 +33,7 @@
         android:ems="10"
         android:hint="이메일"
         android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/editText2"
+        app:layout_constraintBottom_toTopOf="@+id/editText_pw"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView"
@@ -41,7 +41,7 @@
         />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/editText_pw"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
@@ -53,7 +53,7 @@
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editText" />
+        app:layout_constraintTop_toBottomOf="@id/editText_email" />
 
     <Button
         android:id="@+id/button"
@@ -68,7 +68,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editText2" />
+        app:layout_constraintTop_toBottomOf="@id/editText_pw" />
 
     <TextView
         android:id="@+id/textView2"
